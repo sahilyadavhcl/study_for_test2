@@ -1,0 +1,24 @@
+Key ideas to review for Mode 2 - D&A Pass section end #1 test (SpringBoot, Spring REST, Spring Security, Spring Data JPA, Design Patterns):
+
+- Spring Boot:  (@SpringBootApplication; syntax for launching a boot app in program; spring boot CLI; YML; starter dependencies; embedded Tomcat/Jetty, etc)
+
+- REST in Spring Boot: (REST definition, concepts of REST; URI;  annotations -e.g, @RestController, @ResponseBody, @RequestParam, @PathVariable; protocol used(http); http verbs - GET, POST, etc)
+
+- Spring Security: (e.g., WebSecurityConfigurerAdapter; @EnableWebSecurity;  antmatchers; access method; configure(HttpSecurity http)(https://www.baeldung.com/java-config-spring-security ); UserDetails; AuthenticationManagerBuilder; which class used to define roles - GrantedAuthority) - good YouTube tutorial that ties all this together: (Spring Boot + Spring Security with JPA authentication and MySQL from scratch - Java Brains: https://www.youtube.com/watch?v=TNt3GHuayXs)
+
+- Spring Data JPA: annotations/syntax (e.g., paging/sorting - which interface (Page, Slice, List) does what?(https://www.baeldung.com/spring-data-jpa-pagination-sorting)(https://www.baeldung.com/spring-data-jpa-query); named queries(https://www.baeldung.com/hibernate-named-query); @Query, @Param,@Modifying and positional/indexed vs named parameters (https://www.baeldung.com/spring-data-jpa-query)(official Spring Data JPA documentation: https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.named-queries); crud repository syntax; add new methods to crud repository; query prefixes that auto generate queries - "findBy", etc:(https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.entity-persistence)))
+
+- Design Patterns: (Adapter, Singleton, Factory, Facade, Visitor, Builder, etc)
+
+---
+
+https://www.baeldung.com/spring-data-jpa-pagination-sorting
+https://www.baeldung.com/hibernate-named-query
+https://www.baeldung.com/spring-data-jpa-query
+https://www.baeldung.com/java-config-spring-security
+https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.entity-persistence
+https://reflectoring.io/spring-boot-paging/
+
+"Spring Boot + Spring Security with JPA authentication and MySQL from scratch" - "Java Brains": https://www.youtube.com/watch?v=TNt3GHuayXs
+
+---
